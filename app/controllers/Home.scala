@@ -8,6 +8,6 @@ import play.api.mvc.{Action, Controller}
 class Home extends Controller{
 
   def welcome = Action {
-    Ok("welcome")
+    Ok(views.html.home())
   }
 }

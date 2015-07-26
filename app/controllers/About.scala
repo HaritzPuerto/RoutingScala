@@ -7,6 +7,6 @@ import play.api.mvc.{Action, Controller}
  */
 class About extends Controller{
   def about = Action {
-    Ok("About")
+    Ok(views.html.about())
   }
 }
